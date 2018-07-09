@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Shared Service Module - All provider imports will go in this module
 // No other module is allowed to import this module.
@@ -23,6 +24,7 @@ import { SidebarComponent } from './components/shared/sidebar/sidebar.component'
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     ServiceModule,
     LoginModule,
     RegistrationModule,
