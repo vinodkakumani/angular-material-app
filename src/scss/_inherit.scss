@@ -1,0 +1,12 @@
+// These are common css styles which can be extended by other css.
+// These css styles will be effected only when they are extended.
+%equal-heights {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+%message-shared {
+  border: 1px solid $white;
+  padding: 10px;
+  color: $color-message;
+}

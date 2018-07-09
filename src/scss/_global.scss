@@ -1,0 +1,39 @@
+// Using mixins (check _mixins.scss)
+.box {
+    @include transform(rotate(30deg));
+}
+
+
+// Using inheritance (check _inherit.scss)
+.message {
+    @extend %message-shared;
+}
+
+.success {
+    @extend %message-shared;
+    border-color: $color-success;
+}
+
+.error {
+    @extend %message-shared;
+    border-color: $color-danger;
+}
+
+.warning {
+    @extend %message-shared;
+    border-color: $color-warning;
+}
+
+// Example math operations
+.container { width: 100%; }
+
+
+article[role="main"] {
+  float: left;
+  width: 600px / 960px * 100%;
+}
+
+aside[role="complementary"] {
+  float: right;
+  width: 300px / 960px * 100%;
+}
