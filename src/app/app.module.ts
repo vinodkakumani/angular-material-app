@@ -15,12 +15,14 @@ import { RegistrationModule } from './modules/feature/registration/registration.
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { SidebarComponent } from './components/shared/sidebar/sidebar.component';
+import { ChatboxComponent } from './components/shared/chatbox/chatbox.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    ChatboxComponent
   ],
   imports: [
     BrowserModule,
