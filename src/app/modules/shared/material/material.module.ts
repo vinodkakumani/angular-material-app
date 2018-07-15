@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { CdkTableModule } from '@angular/cdk/table';
 import { CdkTreeModule } from '@angular/cdk/tree';
 import {
@@ -17,10 +16,6 @@ import {
 } from '@angular/material';
 
 @NgModule({
-  imports: [
-    CommonModule
-  ],
-  declarations: [],
   exports: [
     CdkTableModule,
     CdkTreeModule,

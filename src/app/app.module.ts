@@ -1,6 +1,6 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgModule } from '@angular/core';
 import { PickerModule } from '@ctrl/ngx-emoji-mart';
 
 // Shared Service Module - All provider imports will go in this module
@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { LoginModule } from './modules/feature/login/login.module';
 import { RegistrationModule } from './modules/feature/registration/registration.module';
 import { DashboardModule } from './modules/feature/dashboard/dashboard.module';
+import { MaterialExamplesModule } from './modules/feature/material-examples/material-examples.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/shared/header/header.component';
@@ -33,6 +34,7 @@ import { ChatboxComponent } from './components/shared/chatbox/chatbox.component'
     LoginModule,
     RegistrationModule,
     DashboardModule,
+    MaterialExamplesModule,
     AppRoutingModule
   ],
   providers: [],
