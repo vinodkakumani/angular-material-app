@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { PickerModule } from '@ctrl/ngx-emoji-mart';
 
 // Shared Service Module - All provider imports will go in this module
 // No other module is allowed to import this module.
@@ -29,7 +28,6 @@ import { ChatboxComponent } from './components/shared/chatbox/chatbox.component'
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    PickerModule, // Emoji Picker
     ServiceModule,
     LoginModule,
     RegistrationModule,
